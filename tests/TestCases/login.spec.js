@@ -16,6 +16,7 @@ test ('login - valid', async ({page}) => {
     await expect(homePage.signOutButton).toBeVisible();
     await homePage.clickShop();
     await page.close();
+    
 });
 
 test ('login - invalid', async ({page}) => {
