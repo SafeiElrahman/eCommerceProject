@@ -1,0 +1,200 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - text: 
+    - banner [ref=e4]:
+      - link "Automation Practice Site" [ref=e7] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in
+        - img "Automation Practice Site" [ref=e8]
+      - generic:
+        - generic:
+          - generic:
+            - generic: 
+            - textbox "Search" [ref=e9]
+        - navigation:
+          - list [ref=e10]:
+            - listitem [ref=e11]:
+              - link "Shop" [ref=e12] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/shop/
+            - listitem [ref=e13]:
+              - link "My Account" [ref=e14] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/my-account/
+            - listitem [ref=e15]:
+              - link "Test Cases" [ref=e16] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/test-cases/
+            - listitem [ref=e17]:
+              - link "AT Site" [ref=e18] [cursor=pointer]:
+                - /url: http://automationtesting.in/
+            - listitem [ref=e19]:
+              - link "Demo Site" [ref=e20] [cursor=pointer]:
+                - /url: http://demo.automationtesting.in/Register.html
+            - listitem [ref=e21]:
+              - link " 2 items -₹900.00" [ref=e22] [cursor=pointer]:
+                - /url: https://practice.automationtesting.in/basket/
+                - generic [ref=e23]: 
+                - generic [ref=e24]: 2 items
+                - generic [ref=e25]: "-₹900.00"
+      - link "" [ref=e26] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - navigation [ref=e30]:
+        - link "Home" [ref=e31] [cursor=pointer]:
+          - /url: https://practice.automationtesting.in
+        - text: / Shop
+      - paragraph [ref=e39]:
+        - insertion
+      - combobox [ref=e41]:
+        - option "Default sorting" [selected]
+        - option "Sort by popularity"
+        - option "Sort by average rating"
+        - option "Sort by newness"
+        - 'option "Sort by price: low to high"'
+        - 'option "Sort by price: high to low"'
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "Sale! Android Quick Start Guide Android Quick Start Guide ₹600.00 ₹450.00" [ref=e44] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/android-quick-start-guide/
+            - generic [ref=e45]: Sale!
+            - img "Android Quick Start Guide" [ref=e46]
+            - heading "Android Quick Start Guide" [level=3] [ref=e47]
+            - generic [ref=e48]:
+              - deletion [ref=e49]:
+                - generic [ref=e50]: ₹600.00
+              - insertion [ref=e51]:
+                - generic [ref=e52]: ₹450.00
+          - link "Add to basket" [ref=e53] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=169
+        - listitem [ref=e54]:
+          - link "Functional Programming in JS Functional Programming in JS ₹250.00" [ref=e55] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/functional-programming-in-js/
+            - img "Functional Programming in JS" [ref=e56]
+            - heading "Functional Programming in JS" [level=3] [ref=e57]
+            - generic [ref=e59]: ₹250.00
+          - link "Add to basket" [ref=e60] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=170
+        - listitem [ref=e61]:
+          - link "Mastering HTML5 Forms HTML5 Forms ₹280.00" [ref=e62] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/html5-forms/
+            - img "Mastering HTML5 Forms" [ref=e63]
+            - heading "HTML5 Forms" [level=3] [ref=e64]
+            - generic [ref=e66]: ₹280.00
+          - link "Add to basket" [ref=e67] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=181
+        - listitem [ref=e68]:
+          - link "HTML5 Web Application Development Beginner's guide HTML5 WebApp Develpment ₹180.00" [ref=e69] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/html5-webapp-develpment/
+            - img "HTML5 Web Application Development Beginner's guide" [ref=e70]
+            - heading "HTML5 WebApp Develpment" [level=3] [ref=e71]
+            - generic [ref=e73]: ₹180.00
+          - link "Add to basket" [ref=e74] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=182
+        - listitem [ref=e75]:
+          - link "Learning JavaScript Data Structures and Algorith JS Data Structures and Algorithm ₹150.00" [ref=e76] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/learning-javascript-data-structures-and-algorithm/
+            - img "Learning JavaScript Data Structures and Algorith" [ref=e77]
+            - heading "JS Data Structures and Algorithm" [level=3] [ref=e78]
+            - generic [ref=e80]: ₹150.00
+          - link "Add to basket" [ref=e81] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=180
+        - listitem [ref=e82]:
+          - link "Mastering JavaScript Mastering JavaScript ₹350.00" [ref=e83] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/mastering-javascript/
+            - img "Mastering JavaScript" [ref=e84]
+            - heading "Mastering JavaScript" [level=3] [ref=e85]
+            - generic [ref=e87]: ₹350.00
+          - link "Add to basket" [ref=e88] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=165
+        - listitem [ref=e89]:
+          - link "Selenium Ruby Selenium Ruby ₹500.00" [ref=e90] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/selenium-ruby/
+            - img "Selenium Ruby" [ref=e91]
+            - heading "Selenium Ruby" [level=3] [ref=e92]
+            - generic [ref=e94]: ₹500.00
+          - link "Add to basket" [ref=e95] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=160
+        - listitem [ref=e96]:
+          - link "Sale! Thinking in HTML Thinking in HTML ₹450.00 ₹400.00" [ref=e97] [cursor=pointer]:
+            - /url: https://practice.automationtesting.in/product/thinking-in-html/
+            - generic [ref=e98]: Sale!
+            - img "Thinking in HTML" [ref=e99]
+            - heading "Thinking in HTML" [level=3] [ref=e100]
+            - generic [ref=e101]:
+              - deletion [ref=e102]:
+                - generic [ref=e103]: ₹450.00
+              - insertion [ref=e104]:
+                - generic [ref=e105]: ₹400.00
+          - link "Add to basket" [ref=e106] [cursor=pointer]:
+            - /url: /shop/?add-to-cart=163
+    - complementary [ref=e107]:
+      - heading "Refine By >" [level=4] [ref=e109]
+      - generic [ref=e110]:
+        - heading "Filter by price" [level=4] [ref=e111]
+        - generic [ref=e118]:
+          - button "Filter" [ref=e119] [cursor=pointer]
+          - generic [ref=e120]: "Price: ₹150 — ₹500"
+      - generic [ref=e121]:
+        - heading "Product Categories" [level=4] [ref=e122]
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - link "Android" [ref=e125] [cursor=pointer]:
+              - /url: https://practice.automationtesting.in/product-category/android/
+            - text: (1)
+          - listitem [ref=e126]:
+            - link "HTML" [ref=e127] [cursor=pointer]:
+              - /url: https://practice.automationtesting.in/product-category/html/
+            - text: (3)
+          - listitem [ref=e128]:
+            - link "JavaScript" [ref=e129] [cursor=pointer]:
+              - /url: https://practice.automationtesting.in/product-category/javascript/
+            - text: (3)
+          - listitem [ref=e130]:
+            - link "selenium" [ref=e131] [cursor=pointer]:
+              - /url: https://practice.automationtesting.in/product-category/selenium/
+            - text: (1)
+      - generic:
+        - generic:
+          - insertion
+      - generic:
+        - generic:
+          - insertion
+  - contentinfo [ref=e133]:
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - link "Site Logo" [ref=e140] [cursor=pointer]:
+          - /url: http://practice.automationtesting.in/
+          - img "Site Logo" [ref=e141]
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - link "" [ref=e145] [cursor=pointer]:
+              - /url: https://twitter.com/krishnasakinala
+              - generic [ref=e146]: 
+          - listitem [ref=e147]:
+            - link "" [ref=e148] [cursor=pointer]:
+              - /url: https://www.facebook.com/automationtesting2016/
+              - generic [ref=e149]: 
+          - listitem [ref=e150]:
+            - link "" [ref=e151] [cursor=pointer]:
+              - /url: https://plus.google.com/105286300926085335367
+              - generic [ref=e152]: 
+          - listitem [ref=e153]:
+            - link "" [ref=e154] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+              - generic [ref=e155]: 
+          - listitem [ref=e156]:
+            - link "" [ref=e157] [cursor=pointer]:
+              - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+              - generic [ref=e158]: 
+      - insertion [ref=e162]
+      - insertion [ref=e166]
+      - generic [ref=e168]:
+        - heading "Subscribe Here" [level=4] [ref=e169]
+        - generic [ref=e171]:
+          - paragraph [ref=e172]:
+            - textbox "Your email address" [ref=e173]
+          - paragraph [ref=e174]:
+            - button "Subscribe" [ref=e175] [cursor=pointer]
+    - generic [ref=e178]:
+      - text: ©
+      - link "Automation Practice Site" [ref=e179] [cursor=pointer]:
+        - /url: https://practice.automationtesting.in
+      - text: "2026"

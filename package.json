@@ -1,0 +1,23 @@
+{
+  "name": "nopecommerceproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "test:allure": "rm -rf ./allure-results && npx playwright test && allure generate ./allure-results --clean -o ./allure-report && allure open ./allure-report",
+    "test:file": "rm -rf ./allure-results && npx playwright test --",
+    "test:one": "rm -rf ./allure-results && npx playwright test -g"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.7.1"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.0"
+  }
+}
