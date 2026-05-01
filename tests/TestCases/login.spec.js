@@ -1,6 +1,5 @@
 import {test, expect} from '@playwright/test';
-import HomePage from '../PomFile/homePage';
-import RegisterAndLoginPage from '../PomFile/registerAndLoginPage';
+import { HomePage, RegisterAndLoginPage } from '../PomFile/index.js';
 
 test ('login - valid', async ({page}) => {
     const validUsername = 'safei@test.com';

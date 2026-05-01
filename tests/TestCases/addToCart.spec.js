@@ -1,12 +1,6 @@
-// spec: specs/AddToCart.plan.md
-// seed: tests/TestCases/seed.spec.ts
-
 import { test, expect } from '@playwright/test';
-import HomePage from '../PomFile/homePage';
-import ShopPage from '../PomFile/shopPage';
-import BasketPage from '../PomFile/basketPage';
-import CheckoutPage from '../PomFile/checkoutPage';
 import { validLoginTemplate } from '../helpers/Templates/validLoginTemplate';
+import { HomePage, ShopPage, BasketPage, CheckoutPage, RegisterAndLoginPage } from '../PomFile/index.js';
 
 test.describe('Add to Cart Functionality', () => {
   
