@@ -8,6 +8,12 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: ${{ secrets.BASE_URL }}
+      VALID_EMAIL: ${{ secrets.VALID_EMAIL }}
+      VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
+      INVALID_EMAIL: ${{ secrets.INVALID_EMAIL }}
+      INVALID_PASSWORD: ${{ secrets.INVALID_PASSWORD }}
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
