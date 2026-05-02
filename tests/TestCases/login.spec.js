@@ -2,8 +2,8 @@ import {test, expect} from '@playwright/test';
 import { HomePage, RegisterAndLoginPage } from '../PomFile/index.js';
 
 test ('login - valid', async ({page}) => {
-    const validUsername = 'safei@test.com';
-    const validPassword = 'TestPassword123@H';
+    const validUsername = process.env.VALID_EMAIL;
+    const validPassword = process.env.VALID_PASSWORD;
 
     const homePage = new HomePage(page);
     const registerAndLoginPage = new RegisterAndLoginPage(page);
@@ -17,8 +17,8 @@ test ('login - valid', async ({page}) => {
 });
 
 test ('login - invalid', async ({page}) => {
-    const invalidUsername ="test@test.com"
-    const invalidPassword = 'InvalidPassword123@H';
+    const invalidUsername = process.env.INVALID_EMAIL;
+    const invalidPassword = process.env.INVALID_PASSWORD;
     const homePage = new HomePage(page);
     const registerAndLoginPage = new RegisterAndLoginPage(page);
 

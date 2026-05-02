@@ -11,7 +11,7 @@ test.describe('Add to Cart Functionality', () => {
 
   test.beforeEach(async ({ page }) => {
     // Login
-    await validLoginTemplate(page, 'safei@test.com', 'TestPassword123@H');
+    await validLoginTemplate(page, process.env.VALID_EMAIL, process.env.VALID_PASSWORD);
     
     // Initialize page objects
     homePage = new HomePage(page);

@@ -1,5 +1,4 @@
-import HomePage from '../../PomFile/homePage';
-import RegisterAndLoginPage from '../../PomFile/registerAndLoginPage';
+import { HomePage, RegisterAndLoginPage } from '../../PomFile/index.js';
 
 export async function validLoginTemplate(page,validUsername,validPassword) {
     const homePage = new HomePage(page);

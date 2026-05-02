@@ -1,5 +1,7 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+dotenv.config();
 
 export default defineConfig({
   testDir: './tests',
@@ -13,7 +15,7 @@ export default defineConfig({
   workers: 1,
   reporter: [["line"], ["allure-playwright"]],
   use: {
-    baseURL: 'https://practice.automationtesting.in/',
+    baseURL: process.env.BASE_URL,
     headless: true,
     viewport: { width: 1280, height: 720 },
     screenshot: 'only-on-failure',
