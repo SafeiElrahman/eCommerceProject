@@ -14,8 +14,8 @@ export default defineConfig({
   retries: 0,
   workers: 1,
   reporter: process.env.CI 
-    ? [["line"], ["allure-playwright"], ["html", { open: "never" }]]
-    : [["line"], ["allure-playwright"], ["html"]],
+    ? [["line"], ["allure-playwright", { open: "never" }]]
+    : [["line"], ["allure-playwright"]],
   use: {
     baseURL: process.env.BASE_URL,
     headless: true,
